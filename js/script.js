@@ -1,0 +1,1 @@
+new Swiper('.comparison__image-slider');

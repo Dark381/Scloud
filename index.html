@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Caption&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container container--header">
+            <a class="logo header__logo" href="#">
+                <img class="logo__img" src="images/logo.svg" alt="" >
+            </a>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-list-item">
+                        <a class= "header__menu-link" href="#">Решения</a>
+                        <img class="details" src="images/details.svg" alt="" >
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class= "header__menu-link" href="#">Тарифы</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class= "header__menu-link" href="#">Помощь</a>
+                        <img class="details" src="images/details.svg" alt="" >
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class= "header__menu-link" href="#">Компания</a>
+                        <img class="details" src="images/details.svg" alt="" >
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class= "header__menu-link" href="#">Партнерам</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="search">
+                <a class = "search__link" href="#">
+                    <img class="search__img" src="images/search.svg" alt="" >
+                </a>            
+            </div>
+            <div class="header__phone">
+                <a class="header__phone-text" href="tel:88005559115">8 (800) 555-91-15</a>
+
+            </div>
+            <a class="sigh-in sign-in__text" href="#">
+                <img class="sing-in__img" src="images/sign-in.svg" alt="">
+                Вход                
+            </a>
+
+
+            <a class = "button registation__button button__text registration__text" href="#"> 
+                Регистрация
+            </a>
+        </div>
+        <div class="header__line"></div>
+    </header>
+
+    <section class="section about">
+        <div class="container">
+            <div class="about__content">
+
+                <div class="title about-content__title">1С: Зарплата и управление персоналом 8</div>
+                <div class="price about-content__price">Цена - от 760 ₽ в месяц*</div>
+            
+                <p class="about__description">Программа позволяет 
+                    эффективно организовать комплексный учет кадров, 
+                    а также автоматизировать процесс
+                     подсчета зарплаты и других выплат сотрудникам
+                </p>
+                
+                <a class="button button__text trial-free__button trial-free__text" href="#">
+                    Попробовать 14 дней бесплатно
+                </a>
+          
+                <div class="note header__note">*входит в тарифы</div>
+                
+            </div>
+            <div class="about__img-container">
+                <img class="about__img" src="images/presentation.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section main-features">
+        <div class="container">
+            <div class="main-features__content">
+                <div class="title main-fetures__title">Основные возможности</div>
+                <div class="main-features__feature-list">
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Учёт заработной платы</div>
+                    </div>  
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Исчисление налогов и взносов с фонда оплаты труда</div>
+                    </div>             
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Управление компетенциями и аттестация работников</div>
+                    </div>   
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Отражение начисленной зарплаты и налогов в затратах предприятия</div>
+                    </div>   
+                </div>
+                <div class="main-features__feature-list">
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Учет кадров и анализ кадрового состава</div>
+                    </div>     
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Автоматизация кадрового делопроизводства</div>
+                    </div>   
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Возможность сдачи отчетов по каждому из сотрудников</div>
+                    </div>   
+                    <div class="main-features__item">
+                        <img class="check-mark-img" src="images/check-mark-circle.svg" alt="">
+                        <div class="main-features__text">Управление денежными расчетами с персоналом, включая депонирование</div>
+                    </div>           
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section advantages">
+        <div class="container">
+            <div class="advantages__content">
+                <div class="title advantages__title">
+                    Преимущества аренды 1С в облаке
+                </div>
+                
+                    <div class="advantages__card advantages__card--1">
+                        <img class="advanrages__card-img" src="images/box.svg" alt="">
+                        <div class="advantages__card-text">Бесплатные консультации по работе в 1С</div>
+                    </div>
+                    <div class="advantages__card advantages__card--2">
+                        <img class="advanrages__card-img" src="images/headphones.svg">
+                        <div class="advantages__card-text">Поддержка 24/7 настоящих профи 1С</div>
+                    </div>
+                    <div class="advantages__card advantages__card--3">
+                        <img class="advanrages__card-img" src="images/rubble.svg" alt="">
+                        <div class="advantages__card-text">Уникальные финансовые гарантии</div>
+                    </div>
+
+
+                    <div class="advantages__card advantages__card--4">
+                        <img class="advanrages__card-img" src="images/home.svg" alt="">
+                        <div class="advantages__card-text">Возможность работать в 1С из дома и офиса</div>
+                    </div>
+                    <div class="advantages__card advantages__card--5">
+                        <img class="advanrages__card-img" src="images/clock.svg" alt="">
+                        <div class="advantages__card-text">Круглосуточный доступ в 1С</div>
+                    </div>
+                    <div class="advantages__card advantages__card--6">
+                        <img class="advanrages__card-img" src="images/plus-circle.svg" alt="">
+                        <div>
+                            <div class="advantages__card-text">Попробуйте 1С: ЗУП 8</div>
+                            <a class="advantages__card-text try-for-free" href="#">Попробовать бесплатно</a>
+                        </div>
+
+                   </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section suitable">
+        <div class="container">
+            <div class="suitable__content">
+                <div class="title suitable__title">Кому подойдет 1С: ЗУП 8?</div>
+                <div class="suitable__description">
+                    В качестве дополнительного 
+                    функционала данный программный 
+                    продукт позволяет довести до автоматизма 
+                    большинство процессов управления персоналом, 
+                    например, составление планов потребности в 
+                    новых кадрах, подбор и управление финансовой 
+                    заинтересованностью персонала, 
+                    а также автоматизация кадрого учета.
+                </div>
+                <div class="suitable__tabs">
+                    
+                    <input type="radio" name = "tab-button" id = "tab-button-1" value = "" checked>
+                    <label for="tab-button-1">Руководителям</label>
+                    <input type="radio" name = "tab-button" id = "tab-button-2" value = "" >
+                    <label for="tab-button-2">Бухгалтерам и отделу кадров</label>
+                    <input type="radio" name = "tab-button" id = "tab-button-3" value = "">
+                    <label for="tab-button-3">Сотрудникам</label>
+                    <input type="radio" name = "tab-button" id = "tab-button-4" value = "">
+                    <label for="tab-button-4">HR</label>
+                
+                    <div class ="suitable__tabs-content" id="content-1">
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title">Руководство компании</div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Качество персонала</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Эффективность процессов управления персоналом</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Затраты на персонал</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Производительность труда и выполнение KPI</div>
+                            </div>
+                        </div>
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title">Руководство подразделений</div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Квалификация персонала</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Эффективность системы мотивации</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Предложения по изменению мотивации</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Заявки на обучение</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Заявки на подбор</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="suitable__tabs-content" id="content-2">
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title">Бухгалтерия</div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Структура начисления зарплаты</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Данные для расчета налогов и выплат в фонды</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Начисление и выплата зарплаты, налогов</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Бюджет затрат на персонал</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Исполнение бюджета</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Отклонения от бюджета</div>
+                            </div>
+                        </div>
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title">Отдел кадров</div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Качетственный состав работников</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Данные о сотрудниках</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Перемещение кадров</div>
+                            </div>
+                                            
+                        </div>
+                    </div>
+                    <div class ="suitable__tabs-content" id="content-3">
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title"></div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Начисленная зарплата</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Оставшиеся дни отпуска</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Заявки на отпуск</div>
+                            </div>                        
+                        </div>
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title"></div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Заявки на обучение</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Отработанное время</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Заявки на отпуск</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="suitable__tabs-content" id="content-4">
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title"></div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Потребность в кадрах</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Квалификация персонала</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Кадровый резерв</div>
+                            </div>      
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Затраты на персонал</div>
+                            </div>        
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Загрузка сотрудников</div>
+                            </div>                          
+                        </div>
+                        <div class="suitable__content-collum">
+                            <div class="title suitable__content-collum-title"></div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Кадровый план</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Информация о кандидатах</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Планы обучения</div>
+                            </div>
+                            <div class="suitable__content-collum-item">
+                                <img class="suitable__content-collum-item-img" src="images/check-mark.svg" alt="">
+                                <div class="suitable__content-collum-item-text">Результаты обучения</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section comparison">
+        <div class="container">
+            <div class="comparison__content">
+                <div class="title comparison__content-title">Сравнение функционала версий ПРОФ и КОРП</div>
+                <div class="comparison__content-list">
+                    <div class="comparison__content-list-header">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-header-title">
+                            Возможности
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-header-title">
+                            ПРОФ
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-header-title">
+                            КОРП
+                        </div>
+                    </div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Кадровый резерв и управление талантами
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-negative.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Поддержка грейдов
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-negative.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Адаптация, обучение и развитие
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-negative.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Анализ расходов на персонал по проектам и направлениям деятельности
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-negative.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Удаленный доступ для линейных руководителей и сотрудников
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-negative.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparasion__content-list--hidden">
+                        <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Финансовая мотивация с использованием показателей эффективности (KPI)
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Импорт значений показателей из 1С:Управление торговлей и 1С:Розница                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Учет деятельности нескольких организаций                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Возможность изменения (конфигурирования) прикладного решения                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Учет кадров и анализ кадрового состава                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Расчет и учет заработной платы
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Управление денежными расчетами, включая депонирование
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Исчисление налогов и страховых взносов (в т.ч. для УСН и ЕНВД)
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    <div class="comparison__content-list-item">
+                        <div class="comparison__content-list-collum-1 comparison__content-list-item-text">
+                            Подготовка регламентированной отчетности
+                        </div>
+                        <div class="comparison__content-list-collum-2 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                        <div class="comparison__content-list-collum-3 comparison__content-list-item-symbol">
+                            <img class="comparison__content-list-item-symbol-img" src="images/symbol-positive.svg" alt="">
+                        </div> 
+                    </div>
+                    <div class="comparison__content-list-line"></div>
+                    </div>
+                    
+                </div>  
+                <div class="container container--slider"> 
+                <div class="comparison__image-slider swiper-container">
+                    <div class="comparison__image-slider-wrapper swiper-wrapper">
+                        <div class="comparison__image-slider-slide swipper-slide">
+                            <div class="swipper-slide__image">
+                                <img src="images/slide-1.png" alt="" >
+                            </div>
+                        </div>
+                        <div class="comparison__image-slider-slide swipper-slide">
+                            <div class="swipper-slide__image">
+                                <img src="images/slide-1.png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section minimal-price">
+        <div class="container">
+            <div class="minimal-price__content">
+                <div class="title minimal-price__content-title">Цена на 1С: ЗУП 8 онлайн <a class = "highlighted-text">от 760 ₽ в месяц</a></div>
+                <form action=""></form>
+                    <div class="container registration-blank">                    
+                        <input class = "registration-blank__input" type="name" placeholder="Имя*"/>
+                        <input class = "registration-blank__input" type="phone" placeholder="+7" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" />
+                        <input class = "registration-blank__input" type="email" placeholder="E-mail*" pattern="/^.+@..+$"/>
+                    </div>      
+                    <div class="note registration-blank-note-1">
+                        * Поля обязательные для заполнения
+                    </div>
+                    
+ 
+                    <div class="registration-blank__button-and-note">
+                        <button type="submit" class="button button__text trial-free__button trial-free__text" href="#">
+                            Попробовать 14 дней бесплатно
+                        </button>                          
+                        <div class="note registration-blank-note-2">Начиная работу, я принимаю условия <a class="highlighted-text" href="#">Оферты</a>  
+                        <div>и соглашаюсь на обработку персональных данных в соответствии с <a class="highlighted-text" href="#">
+                            Политикой конфиденциальности</a>
+                            </div></div>
+                    </div>
+                </form>
+
+               
+            </div>
+
+        </div>
+    </section>
+
+    <section class = "section reports-list">
+        <div class="container">
+            <div class="reports-list__content">
+                <div class="title reports-list__content-title">С какими отчетами Вы можете работать?</div>
+                <div class="reports-list__content-item">
+                    <img class="reports-list__content-item-img" src="images/check-mark-circle.svg" alt="">
+                    <div class="reports-list__content-item-text">Формирование списков кандидатов на работу, работников компании и ее подразделений;</div>
+                </div>
+                <div class="reports-list__content-item">
+                    <img class="reports-list__content-item-img" src="images/check-mark-circle.svg" alt="">
+                    <div class="reports-list__content-item-text">Составление диаграмм, графиков отпусков с фактическим использованием отпусков работников компании и ее подразделений;</div>
+                </div>
+                <div class="reports-list__content-item">
+                    <img class="reports-list__content-item-img" src="images/check-mark-circle.svg" alt="">
+                    <div class="reports-list__content-item-text">Составление диаграмм планируемой занятости работников компании;</div>
+                </div>
+                <div class="reports-list__content-item">
+                    <img class="reports-list__content-item-img" src="images/check-mark-circle.svg" alt="">
+                    <div class="reports-list__content-item-text">Отчеты по планируемым фондам зарплаты работников компании;</div>
+                </div>
+                <div class="reports-list__content-item">
+                    <img class="reports-list__content-item-img" src="images/check-mark-circle.svg" alt="">
+                    <div class="reports-list__content-item-text">Отчеты по плановому и фактическому состоянию штатного расписания и многие другие.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section why-scloud">
+        <div class="container">
+            <div class="why-scloud__content">
+                <div class="title why-scloud__content-title">Почему пользователи выбирают Scloud? </div>
+                    <div class="why-scloud__content-advantages">
+                        <div class="why-scloud__content-advantages-row">
+                            <div class="why-scloud__content-advantages-card">
+                                <div class="why-scloud__content-advantages-card-title">
+                                    24/7
+                                </div>
+                                <div class="why-scloud__content-advantages-card-description">круглосуточная техническая 
+                                    поддержка клиентов</div>
+                            </div>
+                            <div class="why-scloud__content-advantages-card">
+                                <div class="why-scloud__content-advantages-card-title">
+                                    > 32 000
+                                </div>
+                                <div class="why-scloud__content-advantages-card-description">пользователей доверяют свою
+                                    1С нашему сервису</div>
+                            </div>
+                        </div>
+                        <div class="why-scloud__content-advantages-row">
+                            <div class="why-scloud__content-advantages-card">
+                                <div class="why-scloud__content-advantages-card-title">
+                                    8 лет
+                                </div>
+                                <div class="why-scloud__content-advantages-card-description">предоставления доступа к 1С 
+                                    онлайн в России</div>
+                            </div>
+                            <div class="why-scloud__content-advantages-card">
+                                <div class="why-scloud__content-advantages-card-title">
+                                    > 200
+                                </div>
+                                <div class="why-scloud__content-advantages-card-description">высококвалифицированных специалистов в штате</div>
+                            </div>
+                        </div>
+                        <a class="why-scloud__content-advantages-more-info highlighted-text" href="#">Узнать больше о нас ></a>
+                    </div>
+                    <img class="why-scloud__content-img" src="images/Group 1328.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section interesting">
+        <div class="container">
+            <div class="interesting__content">
+                <div class="title interesting__content-title">Возможно вас заинтересует</div>
+                <div class="container container--interesting">
+                    <div class="interesting__content-row-item">
+                        <div class="interesting__content-row-item-container">
+                            <img class="interesting__content-row-item-img" src="images/Union-1.svg" alt="">
+                           <div class="interesting__content-row-item-title">1С: Бухгалтерия 
+                            ПРОФ/КОРП</div>
+                        </div>                        
+                        <div class="interesting__content-row-item-description">Конфигурация разработана в соответствии с 
+                            нормами действующего законодательства.
+                            Учет хозяйственной деятельности, заработной 
+                            платы,  сдача отчетности в электронном виде.</div>
+                        <a class="interesting__content-row-item-details highlighted-text" href="#">Подробнее ></a>
+                    </div>
+                    <div class="interesting__content-row-item">
+                        <div class="interesting__content-row-item-container">
+                            <img class="interesting__content-row-item-img" src="images/Union-2.svg" alt="">
+                           <div class="interesting__content-row-item-title">Информационно-
+                            справочная система 1С</div>
+                        </div>                        
+                        <div class="interesting__content-row-item-description">В системе представлены новости, комментарии
+                            и консультации по вопросам бухгалтерского, 
+                            налогового и кадрового учета, рекомендации
+                            по налогообложению, пошаговые инструкции
+                            по их отражению в программе.</div>
+                        <a class="interesting__content-row-item-details highlighted-text" href="#">Подробнее ></a>
+                    </div>                    
+                    <div class="interesting__content-row-item interesting__content-row-item--3">
+                        <div class="interesting__content-row-item-container">
+                            <img class="interesting__content-row-item-img" src="images/Union-3.svg" alt="">
+                           <div class="interesting__content-row-item-title">1С: Отчетность </div>
+                        </div>                        
+                        <div class="interesting__content-row-item-description">Позволяет сдавать отчётность со своего ПК 
+                            прямо из 1С в контролирующие органы: ФНС,
+                            ПФР, ФСС, Федеральная служба государственной
+                            статистики, Росалкогольрегулирование.</div>
+                        <a class="interesting__content-row-item-details highlighted-text" href="#">Подробнее ></a>
+                    </div>
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section start-now">
+        <div class="container">
+            <div class="start-now__content">
+                <div class="title start-now__content-title">
+                    Начните пользоваться 1С прямо сейчас
+                </div>
+                <form action=""></form>
+                <div class="container registration-blank">                    
+                    <input class = "registration-blank__input" type="name" placeholder="Имя*"/>
+                    <input class = "registration-blank__input" type="phone" placeholder="+7" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" />
+                    <input class = "registration-blank__input" type="email" placeholder="E-mail*" pattern="/^.+@..+$"/>
+                </div>      
+                <div class="note registration-blank-note-1">
+                    * Поля обязательные для заполнения
+                </div>
+                
+
+                <div class="registration-blank__button-and-note">
+                    <button type="submit" class="button button__text trial-free__button trial-free__text" href="#">
+                        Попробовать 14 дней бесплатно
+                    </button>                          
+                    <div class="note registration-blank-note-2">Начиная работу, я принимаю условия <a class="highlighted-text" href="#">Оферты</a>  
+                    <div>и соглашаюсь на обработку персональных данных в соответствии с <a class="highlighted-text" href="#">
+                        Политикой конфиденциальности</a>
+                        </div></div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__line">
+
+            </div>
+        </div>
+
+        <div class="container container--footer-upper">
+            <div class="footer__item">
+                <div class="footer__item-title">
+                    Типовые решения
+                </div>
+                <div class="footer__item-description">
+                    <div>1С: Бухгалтерия ПРОФ/КОРП</div>
+                    <div>1С: Зарплата и управление персоналом ПРОФ/КОРП</div>
+                    <div>1С: Комплексная автоматизация</div>
+                    <div>1С: Управление нашей фирмой</div>
+                </div>
+                <a class="footer__item-show-more highlighted-text">Показать больше <img class="footer__item-show-more-img" src="images/show-more.svg" alt=""></a>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">
+                    Отраслевые решения
+                </div>
+                <div class="footer__item-description">
+                    <div>1С: CRM ПРОФ</div>
+                    <div>1С: Учет в управляющих компаниях ЖКХ, ТСЖ и ЖСК</div>
+                    <div>1С: Автосервис</div>
+                    <div>1С: Салон Красоты</div>
+                </div>
+                <a class="footer__item-show-more highlighted-text">Показать больше <img class="footer__item-show-more-img" src="images/show-more.svg" alt=""></a>
+            </div><div class="footer__item">
+                <div class="footer__item-title">
+                    Сервисы
+                </div>
+                <div class="footer__item-description">
+                    <div>1С: Контрагент</div>
+                    <div>1С: СтартЭДО</div>
+                    <div>1С-Отчетность</div>
+                    <div>1С: Контрагент</div>
+                    <div>1СПАРК Риски</div>
+
+                </div>
+            </div><div class="footer__item">
+                <div class="footer__item-title">
+                    Доп. возможности
+                </div>
+                <div class="footer__item-description">
+                    <div>ФГИС Меркурий</div>
+                    <div>ЕГАИС</div>
+                    <div>Клиент-банк</div>
+                    <div>Директ-банк</div>
+                    <div>Торговое оборудование</div>
+                </div>
+                <a class="footer__item-show-more highlighted-text">Показать больше <img class="footer__item-show-more-img" src="images/show-more.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="container container--footer-upper-menu">
+            <nav class="footer-upper__menu">
+                <ul class="footer-upper__menu-list">
+                    <li class="footer-upper__menu-list-item">
+                        <a class="footer-upper__menu-link" href="">
+                            Типовые решения
+                            <img class="footer-upper__menu-img" src="images/details-up.svg" alt="">
+                        </a>
+                    </li>                    <li class="footer-upper__menu-list-item">
+                        <a class="footer-upper__menu-link" href="">
+                            Отраслевые решения
+                            <img class="footer-upper__menu-img" src="images/details-up.svg" alt="">
+                        </a>
+                    </li>                    <li class="footer-upper__menu-list-item">
+                        <a class="footer-upper__menu-link" href="">
+                            Сервисы
+                            <img class="footer-upper__menu-img" src="images/details-up.svg" alt="">
+                        </a>
+                    </li>                    <li class="footer-upper__menu-list-item">
+                        <a class="footer-upper__menu-link" href="">
+                            Доп. возможности
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container container--footer">
+            <div class="footer__logo">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="" >
+                </a>
+            </div>
+
+            <div class="footer__contact">
+                <div class="footer__contact-phone">
+                    <a class="footer__contact-phone-text" href="tel:88005559115">8 (800) 555-91-15</a>  
+                    <a class="footer__contact-phone-text footer__contact-phone-text--2" href="tel:+74957865915">| +7 (495) 786-59-15</a>
+                </div>
+                <div class="footer__contact-address">
+                    <div class="footer__contact-address-text">
+                        111024, г. Москва, ул. Авиамоторная, 69
+                    </div>
+                    <div class="footer__contact-address-text">
+                        300028, г. Тула, ул. Болдина, 98
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__social">
+                <div>
+                    <a class="footer__social-link" href="">
+                        <img class="footer__social-img" src="images/inst.svg" alt="" > <!-- Запрещенная на территории РФ экстремиская организация-->               
+                    </a>              
+                </div>
+                <div>
+                    <a class="footer__social-link" href="">
+                        <img class="footer__social-img" src="images/fb.svg" alt="" > <!-- Запрещенная на территории РФ экстремиская организация-->               
+                    </a>
+                </div>
+                <div>
+                    <a class="footer__social-link" href="">
+                        <img class="footer__social-img" src="images/vk.svg" alt="" >       
+                    </a>
+                </div>
+                <div>
+                    <a class="footer__social-link" href="">
+                        <img class="footer__social-img" src="images/ok.svg" alt="" >       
+                    </a>
+                </div>
+                <div>
+                    <a class="footer__social-link" href="">
+                        <img class="footer__social-img" src="images/youtube.svg" alt="" >       
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__app">
+                <div class="footer__app-app-store">
+                    <a class="footer__app-app-store-link" href="">
+                        <img class="footer__app-app-store-img" src="images/app-store.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__app-google-play">
+                    <a class="footer__app-google-play-link" href="">
+                        <img class="footer__app-google-play-img" src="images/google-play.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container--footer-lower">
+            <div class="container container--footer-lower-inner">
+                <div class="footer__links">
+                    <a class="footer__links footer__offer-link" href="">
+                        Оферта 
+                    </a>|
+                    <a class="footer__links footer__privace-policy-link" href="">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+                <div class="footer__copyright">
+                    © 2019 scloud.ru ООО "СервисКлауд"
+                </div>
+            </div>
+            </div>
+
+            <nav class="menu">
+
+            </nav>
+
+
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
